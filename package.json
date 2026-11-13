@@ -1,0 +1,15 @@
+{
+  "name": "cs-full",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "dev:lp": "turbo run dev --filter=lp",
+    "build:lp": "turbo run build --filter=lp"
+  },
+  "devDependencies": {
+    "turbo": "^2.5.4"
+  },
+  "packageManager": "pnpm@12.10.1"
+}

@@ -1,0 +1,38 @@
+# dependencies
+node_modules
+.pnpm-store
+
+# builds
+.next
+.turbo
+dist
+out
+build
+
+# env
+.env
+.env*.local
+
+# debug / os
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+*.pem
+
+# typescript
+next-env.d.ts
+*.tsbuildinfo
+
+# ide (rules ficam no workspace 00)
+.cursor
+.vscode
+
+# mídia bruta Immich / sobras (só curadoria em hero|gallery|sections + videos/*.mp4)
+apps/lp/public/images/immich/
+apps/lp/public/images/immich-hq/
+apps/lp/public/videos/*.mov
+apps/lp/public/images/lp-*.jpg
+apps/lp/public/images/escola-*.jpg
+apps/lp/public/images/gallery-*.jpg
+apps/lp/public/images/hero-bercario.jpg
