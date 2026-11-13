@@ -1,11 +1,13 @@
 export const site = {
   name: "Castelinho do Saber",
   shortName: "Castelinho",
+  title: "Castelinho do Saber Bauru | Educação Infantil",
   tagline: "Educação Infantil em Bauru",
   city: "Bauru — SP",
   ages: "4 meses a 5 anos",
   description:
-    "Escola de educação infantil em Bauru que valoriza a infância: brincar, vínculos e descobertas em um ambiente acolhedor.",
+    "Escola de educação infantil em Bauru (4 meses a 5 anos). Brincar, vínculos e descobertas em um ambiente acolhedor no Jd. Terra Branca.",
+  ogImage: "/images/og.jpg",
   instagram: {
     handle: "@escolacastelinho_bauru",
     url: "https://www.instagram.com/escolacastelinho_bauru/",
